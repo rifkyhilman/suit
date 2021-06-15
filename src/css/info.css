@@ -1,0 +1,50 @@
+/* responsive phone */
+
+  .container {
+    margin: 0 auto;
+  }
+  
+  body {
+    align-items: center;
+    background-color: #010a00;
+    background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+    display: flex;
+    font-size: 1rem;
+  }
+
+  img {
+    margin-bottom: -20px;
+    width: 60px;
+    height: 60px;
+  }
+  
+  h1 {
+    font-weight: bold;
+    font-size: 95px;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 20%;
+  }
+
+  .text-neon {
+      margin-top: 35%;
+  }
+
+  .text-neon p {
+    font-weight: bold;
+    font-size: 35px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 10%;
+  }
+
+  .neon {
+    color: #fff;
+    text-shadow:
+      0 0 40px #0ff,
+      0 0 80px #0ff,
+      0 0 90px #0ff,
+      0 0 100px #0ff,
+      0 0 150px #0ff;
+  }
+  

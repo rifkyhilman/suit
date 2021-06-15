@@ -1,0 +1,115 @@
+/* responsive phone */
+@media only screen and (min-width: 600px) {
+
+    p {
+        font-size: 35px;
+    }
+  }
+  
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+    background: repeating-linear-gradient(45deg, #2b2b2b 0%, #2b2b2b 10%, #222222 0%, #222222 50%) 0 / 15px 15px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-family:'Times New Roman', Times, serif;
+}
+
+@font-face /*perintah untuk memanggil font eksternal*/
+{
+  font-family: 'iceland'; /*memberikan nama bebas untuk font*/
+  src: url('/font/Iceland-Regular.ttf');/*memanggil file font eksternalnya di folder nexa*/
+}
+ 
+/* #228DFF */
+
+h1 {
+    margin-top: 30%;
+    padding-bottom: 40px;
+    font-family: 'iceland';
+    color: #fff;
+    font-size: 100px;
+    border-bottom: 5px solid #228DFF;
+    text-shadow: 
+    
+    .1vw 0vw   0vw #EE34D2, .2vw 0vw   0vw #EE34D2, .4vw 0vw   0vw #EE34D2,
+    .1vw 0vw  .1vw #EE34D2, .2vw 0vw  .1vw #EE34D2, .4vw 0vw  .1vw #EE34D2,
+    .1vw 0vw   2vw #EE34D2, .2vw 0vw   2vw #EE34D2, .4vw 0vw   2vw #EE34D2,
+  
+    .1vw 0vw   1vw #BA01FF, .2vw 0vw   1vw #BA01FF, .4vw 0vw   5vw #BA01FF,
+    .1vw 0vw   5vw #BA01FF, .2vw 0vw  20vw #BA01FF, .4vw 0vw  10vw #BA01FF,
+    .1vw 0vw  10vw #BA01FF, .2vw 0vw  30vw #BA01FF, .4vw 0vw  10vw #BA01FF;
+  }
+
+p {
+    text-align: center;
+    margin-bottom: 30%;
+    color: #fff;
+    font-family: sans-serif;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-size: 65px;
+    color: #15f4ee;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    cursor: pointer;
+    border-radius: 30px;
+    text-shadow:     
+    .1vw 0vw   0vw #BA01FF, .2vw 0vw   0vw #BA01FF, .4vw 0vw   0vw #BA01FF,
+    .1vw 0vw  .1vw #BA01FF, .2vw 0vw  .1vw #BA01FF, .4vw 0vw  .1vw #BA01FF,
+    .1vw 0vw   2vw #BA01FF, .2vw 0vw   2vw #BA01FF, .4vw 0vw   2vw #BA01FF,
+
+    .1vw 0vw   1vw #15f4ee, .2vw 0vw   1vw #15f4ee, .4vw 0vw   5vw #15f4ee,
+    .1vw 0vw   5vw #15f4ee, .2vw 0vw  20vw #15f4ee, .4vw 0vw  10vw #15f4ee,
+    .1vw 0vw  10vw #15f4ee, .2vw 0vw  30vw #15f4ee, .4vw 0vw   10vw #15f4ee;
+  }
+  
+  .button:hover { 
+
+    box-shadow: 0 2px 20px 0 #228DFF inset, 0 2px 20px 0 #228DFF;
+
+  }
+  
+  #tombol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+  }
+  
+  #tombol2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20%;
+    margin-top: 10%;
+  }
+  
+  #tombol a {
+    font-family: 'iceland';
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  #tombol2 a {
+    font-family: 'iceland';
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  footer {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+  }

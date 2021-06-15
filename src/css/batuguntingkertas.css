@@ -1,0 +1,124 @@
+
+/* responsive phone */
+@media only screen and (min-width: 600px) {
+  img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .judul {
+    font-size: 50px;
+    margin-top: 100px;
+  }
+
+  .tampilan {
+    margin-left: 40px;
+  }
+
+  p {
+    font-size: 50px;
+  }
+
+  .hati-kiri {
+    margin-left: 11%;
+  }
+
+  .hati-kanan {
+    margin-right: 8%;
+  }
+}
+
+/* body */
+
+* {
+  background-color: black;
+}
+
+.judul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-shadow: 
+  .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8,
+  
+  .1vw 0vw   0vw #f25757, .2vw 0vw   0vw #f25757, .4vw 0vw   0vw #f25757,
+  .1vw 0vw  .1vw #f25757, .2vw 0vw  .1vw #f25757, .4vw 0vw  .1vw #f25757,
+  .1vw 0vw   2vw #f25757, .2vw 0vw   2vw #f25757, .4vw 0vw   2vw #f25757,
+
+  .1vw 0vw   1vw #e50b0b, .2vw 0vw   1vw #e50b0b, .4vw 0vw   5vw #e50b0b,
+  .1vw 0vw   5vw #e50b0b, .2vw 0vw  20vw #e50b0b, .4vw 0vw  10vw #e50b0b,
+  .1vw 0vw  10vw #e50b0b, .2vw 0vw  30vw #e50b0b, .4vw 0vw   10vw #e50b0b;
+}
+
+p {
+  color: #00b3ff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.nyawa img {
+  width: 50px;
+  height: 50px;
+}
+
+.nyawa {
+  margin-top: 50px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+.tampilan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#suit {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 5%;
+  margin-bottom: 20%;
+}
+
+.box-tengah {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 10%;
+}
+
+.gambar {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#gambar-tengah {
+  border-radius: 50%;
+}
+
+.gambar-kiri {
+ border-radius: 50%;
+}
+
+.gambar-kanan {
+  border-radius: 50%;
+}
+
+#gambar-tengah:hover {
+  box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+              0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+}
+
+.gambar-kiri:hover {
+  box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+              0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+}
+
+.gambar-kanan:hover {
+  box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+              0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+}
