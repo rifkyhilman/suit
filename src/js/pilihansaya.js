@@ -1,5 +1,5 @@
-var suit = ['/img/batu.png', '/img/gunting.png', '/img/kertas.png'];
-var lose = ['/img/heart2.png'];
+var suit = ['./img/batu.png', './img/gunting.png', './img/kertas.png'];
+var lose = ['./img/heart2.png'];
 var nyawa1 = document.getElementById('hati1');
 var nyawa2 = document.getElementById('hati2');
 var nyawa3 = document.getElementById('hati3');
@@ -8,7 +8,7 @@ var nyawa5 = document.getElementById('hati5');
 var nyawa6 = document.getElementById('hati6');
 var musuh = document.getElementById('computer');
 var saya = document.getElementById('you');
-var refresh = ['/img/tanya.png'];
+var refresh = ['./img/tanya.png'];
 var rounde = document.getElementById('judul');
 var ronde = 0;
 var skorMusuh = [];
@@ -26,32 +26,32 @@ function berfungsi(pilihansaya) {
     if (pilihanmusuh === pilihansaya) {
         hasil = "Seri";
     }
-    else if (pilihanmusuh === '/img/batu.png' && pilihansaya === '/img/gunting.png') {
+    else if (pilihanmusuh === './img/batu.png' && pilihansaya === './img/gunting.png') {
         hasil = "kalah !!";
         ronde = ronde + 1;
         skorMusuh.push(0);
     }
-    else if (pilihanmusuh === '/img/gunting.png' && pilihansaya === '/img/kertas.png') {
+    else if (pilihanmusuh === './img/gunting.png' && pilihansaya === './img/kertas.png') {
         hasil = "kalah !!";
         ronde = ronde + 1;
         skorMusuh.push(0);
     }
-    else if (pilihanmusuh === '/img/kertas.png' && pilihansaya === '/img/batu.png') {
+    else if (pilihanmusuh === './img/kertas.png' && pilihansaya === './img/batu.png') {
         hasil = "kalah !!";
         ronde = ronde + 1;
         skorMusuh.push(0);
     }
-    else if (pilihanmusuh === '/img/gunting.png' && pilihansaya === '/img/batu.png') {
+    else if (pilihanmusuh === './img/gunting.png' && pilihansaya === './img/batu.png') {
         hasil = "menang !!";
         ronde = ronde + 1;
         skorSaya.push(1);
     }
-    else if (pilihanmusuh === '/img/kertas.png' && pilihansaya === '/img/gunting.png') {
+    else if (pilihanmusuh === './img/kertas.png' && pilihansaya === './img/gunting.png') {
         hasil = "menang !!";
         ronde = ronde + 1;
         skorSaya.push(1);
     }
-    else if (pilihanmusuh === '/img/batu.png' && pilihansaya === '/img/kertas.png') {
+    else if (pilihanmusuh === './img/batu.png' && pilihansaya === './img/kertas.png') {
         hasil = "menang !!";
         ronde = ronde + 1;
         skorSaya.push(1);
